@@ -1,0 +1,12 @@
+name = input("intro the name: ")
+age = int(input("intro the age: "))
+working_hours = float(input('intro the working hours: '))
+hourly_pay = float(input('Intro the hourly pay: '))
+monthly_salary = int(working_hours * hourly_pay)
+
+print()
+print(f'The name of worker: {name}')
+print(f'The age of worker: {age}')
+print(f'The working hours: {working_hours}')
+print(f'The hourly pay: {hourly_pay}')
+print(f'The monthly salary: {monthly_salary}')
