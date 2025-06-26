@@ -10,6 +10,6 @@ daily_steps = int(input("Intro the steps daily: "))
 
 burn_calories = daily_steps * CALORIES_DAILY_STEPS
 
-it_was_fulfilled = "was fulfilled" if daily_steps > DAILY_STEPS_GOAL else 'wasn\'t fulfilled '
+it_was_fulfilled = "was fulfilled" if daily_steps > DAILY_STEPS_GOAL else 'do not fulfilled '
 
-print(f'The user: {user_name}\n',it_was_fulfilled, f'the steps are: {daily_steps}\n',f'and calorie: {burn_calories}', sep= ' ')
+print(f' The user: {user_name}\n',it_was_fulfilled, f'\n and the steps are: {daily_steps}\n',f'and calorie: {burn_calories}', sep= ' ')
