@@ -10,7 +10,7 @@ grading = int(input("Intro the grading between 1-10:"))
 while grading < 1 or grading > 10:
     grading = int(input("Intro the grading between 1-10:"))
 
-grading = 'A' if (grading == 9 or grading == 10) else 'B' if (grading == 8 or grading == 7) else 'C' if (grading == 6 or grading == 5) else 'D' if (grading == 4 or grading == 3) else 'F'
+#grading = 'A' if (grading == 9 or grading == 10) else 'B' if (grading == 8 or grading == 7) else 'C' if (grading == 6 or grading == 5) else 'D' if (grading == 4 or grading == 3) else 'F'
 
 print(f'The grading is {grading}')
 
